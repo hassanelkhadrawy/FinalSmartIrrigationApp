@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "122282197373",
+    "firebase_url": "https://finalsmartirrigationapp.firebaseio.com",
+    "project_id": "finalsmartirrigationapp",
+    "storage_bucket": "finalsmartirrigationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122282197373:android:5035ce6a6288dbf0",
+        "android_client_info": {
+          "package_name": "com.example.finalsmartirrigationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122282197373-a6pneale7vdt4qg1c6dem8mkv3b7u3iu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finalsmartirrigationapp",
+            "certificate_hash": "5d4c150cc7ed8230cf20665cb48b8887570c5b9d"
+          }
+        },
+        {
+          "client_id": "122282197373-335sdthjnqoqivp501ag9lm882hbvopc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2bpika4sQtqGr8rdP5Cqt0MAfN0JwQIg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122282197373-335sdthjnqoqivp501ag9lm882hbvopc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
