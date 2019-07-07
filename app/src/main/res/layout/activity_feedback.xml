@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedBack"
+    android:background="@drawable/backgroundstyle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:stretchColumns="*"
+            android:weightSum="8">
+
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#92C94A">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:text="السماد"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:text="الحراره"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:text="الرطوبه"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:text="الرياح"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <!-- display this button in 3rd column via layout_column(zero based) -->
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#6F9C33">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="السبت"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="40C"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="65"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="12"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#6F9C33">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="الحد"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="40C"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="65"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="12"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#6F9C33">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="الاتنين"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="40C"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="65"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="12"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#6F9C33">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="التلات"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="40C"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="65"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="12"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#6F9C33">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="الاربع"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="40C"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="65"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="12"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#6F9C33">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="الخميس"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="40C"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="65"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="12"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#6F9C33">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="الجمعه"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="40C"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="65"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="12"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+</ScrollView>

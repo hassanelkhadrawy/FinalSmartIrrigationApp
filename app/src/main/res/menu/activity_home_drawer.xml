@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/humtity"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/hamdity" />
+        <item
+            android:id="@+id/heat"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/heat" />
+        <item
+            android:id="@+id/light_m"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/light" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/about" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/contact_us" />
+        </menu>
+    </item>
+
+</menu>

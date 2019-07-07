@@ -7,25 +7,44 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
         android:supportsRtl="true"
         tools:replace="android:icon">
-        <activity android:name=".Home"
-            android:theme="@style/NoBarTheme">
+        <activity android:name=".Light"
+            android:label="Control Light"
+            android:theme="@style/AppTheme" ></activity>
+        <activity
+            android:name=".Schedule_Table"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Semad_Control"
+            android:label="Control Semad"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Humtity_Control"
+            android:label="Control Humidity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
 
+        <activity
+            android:name=".SignIn"
+            android:theme="@style/NoBarTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".MainActivity"
-            android:theme="@style/AppTheme">
-
-        </activity>
+        <activity
+            android:name=".Control_Heat"
+            android:label="Control Heat"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

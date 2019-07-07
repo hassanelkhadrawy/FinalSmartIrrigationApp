@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedBack"
+    >
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:id="@+id/table"
+        android:stretchColumns="*"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    <TableRow
+        android:layout_weight="1"
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#92C94A" >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_weight="2"
+            android:background="@drawable/cell_shabe"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="10dp"
+            android:text="السماد"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:id="@+id/textView12"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="الحراره"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:id="@+id/textView13"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="الرطوبه"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/textView4"
+            android:paddingBottom="10dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="اختيار"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+    </TableRow>
+
+    <!-- display this button in 3rd column via layout_column(zero based) -->
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#92C94A" >
+
+        <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="6dp"
+            android:paddingTop="10dp"
+            android:text="On"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:layout_width="97dp"
+            android:layout_weight="1"
+            android:background="@drawable/cell_shabe"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="10dp"
+            android:text="Off"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="On"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/cell_shabe"
+
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="Off"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="On"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="Off"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="                       "
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:weightSum="10"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/row_background">
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:text="السبت"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="25sp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="8:00AM"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="8:30AM"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="-----"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="-----"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="8:00AM"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:background="@drawable/cell_shabe"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="8:30AM"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+    <CheckBox
+        android:layout_width="match_parent"
+        app:buttonTint="#fff"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+    </TableRow>
+
+
+        <TableRow
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/row_background" >
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:text="الاحد"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="25sp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:00AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="9:30AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cell_shabe"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:text="3:00PM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="3:15PM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                app:buttonTint="#fff"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"/>
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/row_background">
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:text="الاتنين"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="25sp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:00AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:30AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:00AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:30AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                app:buttonTint="#fff"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/row_background">
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:text="التلات"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="25sp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:00AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:10AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:00AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:10AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:00AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:10AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                app:buttonTint="#fff"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/row_background" >
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:text="الاربع"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="25sp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:00AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:10AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                app:buttonTint="#fff"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/row_background">
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:text="الخميس"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="25sp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="-----"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                app:buttonTint="#fff"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/row_background" >
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:text="الجمعه"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="25sp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:00AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:10AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:00AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:10AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:00AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:background="@drawable/cell_shabe"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8:10AM"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                app:buttonTint="#fff"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"/>
+        </TableRow>
+
+    </TableLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>

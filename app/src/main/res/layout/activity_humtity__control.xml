@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:wave="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundstyle"
+    tools:context=".Humtity_Control">
+
+
+
+
+<android.support.v7.widget.CardView
+android:id="@+id/cardView2"
+android:layout_width="match_parent"
+android:layout_height="128dp"
+android:layout_margin="25sp"
+android:layout_weight="1"
+android:backgroundTint="#A5FFFFFF"
+app:cardCornerRadius="20dp"
+wave:layout_constraintBottom_toTopOf="@+id/close"
+wave:layout_constraintEnd_toEndOf="parent"
+wave:layout_constraintTop_toTopOf="parent">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.john.waveview.WaveView
+        android:id="@+id/wave_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4303A9F4"
+        wave:above_wave_color="#03A9F4"
+        wave:blow_wave_color="#03A9F4"
+        wave:wave_hz="normal"
+        wave:wave_length="middle" />
+
+    <TextView
+        android:id="@+id/water_degree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="266dp"
+        android:layout_marginBottom="176dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_background"
+        android:onClick="Action"
+        android:text="@string/open"
+        tools:ignore="OnClick"
+        wave:layout_constraintBottom_toBottomOf="parent"
+        wave:layout_constraintStart_toStartOf="parent"
+        wave:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/close"
+        wave:layout_constraintBottom_toBottomOf="parent"
+        wave:layout_constraintEnd_toEndOf="parent"
+        wave:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
