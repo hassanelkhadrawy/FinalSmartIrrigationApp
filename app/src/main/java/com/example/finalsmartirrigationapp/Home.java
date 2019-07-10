@@ -147,6 +147,8 @@ public class Home extends AppCompatActivity
             @Override
             public void onCancelled(DatabaseError error) {
                 // Failed to read value
+                // Failed to read value
+
                 Toast.makeText(Home.this, "Failed to read value.", Toast.LENGTH_SHORT).show();
             }
         });
